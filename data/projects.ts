@@ -28,10 +28,10 @@ export const projects: Project[] = [
   },
   {
     id: 'project-3',
-    title: 'Project Title 3',
-    techStack: ['Tech1', 'Tech2', 'Tech3'],
-    image: 'https://via.placeholder.com/600x400/0066cc/ffffff?text=Project+3',
-    imageAlt: 'Project 3'
+    title: 'Presonal Portfolio Website',
+    techStack: ['Next.js 14', 'React', 'TypeScript', 'CSS Modules', 'Next.js App Router', 'Responsive Design'],
+    image: 'https://via.placeholder.com/600x400/0066cc/ffffff?text=Portfolio+Website',
+    imageAlt: 'Portfolio Website - Software Engineering Portfolio'
   },
 ]
 

@@ -30,11 +30,11 @@ const projectDetails: Record<string, {
     longDescription: 'A comprehensive web scraper for multiple software engineering job boards that automates the job search process. Built with Python, this project scrapes job listings from various boards (including Workday-based sites, eightfold.ai, and custom company sites), stores them in a SQLite database to prevent duplicates, and sends daily email notifications of new postings. The scraper features a modular architecture with a base scraper class and factory pattern, making it easy to add support for new job boards. It includes intelligent duplicate detection, configurable job title filtering to exclude senior positions, and rate limiting to respect server resources. The system uses GitHub Actions for automated daily processing, ensuring continuous monitoring without requiring a local machine to be running. This project demonstrates skills in web scraping, database design, email automation, API integration, CI/CD workflows, and software architecture. View the project at https://github.com/DelaneyMcLachlan/new-grad-swe-job-board-scraper.'
   },
   'project-3': {
-    title: 'Project Title 3',
-    techStack: ['Tech1', 'Tech2', 'Tech3'],
-    image: 'https://via.placeholder.com/1200x600/0066cc/ffffff?text=Project+3',
-    description: 'Short description',
-    longDescription: 'This is a detailed description of Project 3.'
+    title: 'Presonal Portfolio Website',
+    techStack: ['Next.js 14', 'React', 'TypeScript', 'CSS Modules', 'Next.js App Router', 'Responsive Design'],
+    image: 'https://via.placeholder.com/1200x600/0066cc/ffffff?text=Portfolio+Website',
+    description: 'Modern portfolio website showcasing projects and experience',
+    longDescription: 'A modern, responsive portfolio website built with Next.js 14 and React, showcasing software engineering projects and professional experience. The site features a clean, minimalist design with a sticky header containing social links, a dynamic project showcase with interactive cards, and a footer section for work experience. Built using Next.js App Router for optimal performance and SEO, the portfolio includes dynamic routing for individual project detail pages, client-side link obfuscation for privacy, and fully responsive CSS Modules for styling. The project demonstrates skills in modern web development, component architecture, TypeScript for type safety, and responsive design principles. The modular structure makes it easy to add new projects and customize content. View the project at https://github.com/DelaneyMcLachlan/dm_new_grad_portfolio.'
   },
 }
 
