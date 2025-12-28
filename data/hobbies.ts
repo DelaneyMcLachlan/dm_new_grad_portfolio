@@ -12,14 +12,26 @@ export interface Hobby {
 }
 
 export const hobbies: Hobby[] = [
-  // Add your hobbies and extra-curriculars here
-  // Example structure:
-  // {
-  //   id: 'hobby-1',
-  //   title: 'Hobby Title',
-  //   techStack: ['Skill1', 'Skill2'],
-  //   image: '/hobby-image.png',
-  //   imageAlt: 'Hobby description'
-  // },
+  {
+    id: 'hobby-1',
+    title: 'Film Photography',
+    techStack: ['Photography', 'Film Development', 'Analog Photography'],
+    image: '/film.png',
+    imageAlt: 'Film Photography - Hobbyist film photography enthusiast'
+  },
+  {
+    id: 'hobby-2',
+    title: 'Hobby/Activity Title 2',
+    techStack: ['Skill1', 'Skill2', 'Skill3'],
+    image: 'https://via.placeholder.com/600x400/0066cc/ffffff?text=Hobby+2',
+    imageAlt: 'Hobby 2'
+  },
+  {
+    id: 'hobby-3',
+    title: 'Hobby/Activity Title 3',
+    techStack: ['Skill1', 'Skill2', 'Skill3'],
+    image: 'https://via.placeholder.com/600x400/0066cc/ffffff?text=Hobby+3',
+    imageAlt: 'Hobby 3'
+  },
 ]
 
