@@ -30,7 +30,7 @@ const projectDetails: Record<string, {
     longDescription: 'A comprehensive web scraper for multiple software engineering job boards that automates the job search process. Built with Python, this project scrapes job listings from various boards (including Workday-based sites, eightfold.ai, and custom company sites), stores them in a SQLite database to prevent duplicates, and sends daily email notifications of new postings. The scraper features a modular architecture with a base scraper class and factory pattern, making it easy to add support for new job boards. It includes intelligent duplicate detection, configurable job title filtering to exclude senior positions, and rate limiting to respect server resources. The system uses GitHub Actions for automated daily processing, ensuring continuous monitoring without requiring a local machine to be running. This project demonstrates skills in web scraping, database design, email automation, API integration, CI/CD workflows, and software architecture. View the project at https://github.com/DelaneyMcLachlan/new-grad-swe-job-board-scraper.'
   },
   'project-3': {
-    title: 'Presonal Portfolio Website',
+    title: 'Personal Portfolio Website',
     techStack: ['Next.js 14', 'React', 'TypeScript', 'CSS Modules', 'Next.js App Router', 'Responsive Design'],
     image: 'https://via.placeholder.com/1200x600/0066cc/ffffff?text=Portfolio+Website',
     description: 'Modern portfolio website showcasing projects and experience',
