@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './ProjectCard.module.css'
+import { getImagePath } from '@/utils/imagePath'
 
 interface ProjectCardProps {
   id: string
@@ -24,7 +25,7 @@ export default function ProjectCard({ id, title, techStack, image, imageAlt, bas
           </div>
         ) : (
           <Image
-            src={image}
+            src={getImagePath(image)}
             alt={imageAlt || title}
             fill
             className={styles.image}

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import styles from './page.module.css'
+import { getImagePath } from '@/utils/imagePath'
 
 // Hobby details - update this when you add new hobbies
 // Make sure the id matches the id in data/hobbies.ts
@@ -73,7 +74,7 @@ export default async function HobbyDetail({ params }: { params: Promise<{ id: st
           
           <div className={styles.imageContainer}>
             <Image
-              src={hobby.image}
+              src={getImagePath(hobby.image)}
               alt={hobby.title}
               fill
               className={styles.image}

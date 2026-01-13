@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import styles from './page.module.css'
+import { getImagePath } from '@/utils/imagePath'
 
 // This would typically come from a database or CMS
 // For now, using placeholder data
@@ -80,7 +81,7 @@ export default async function ProjectDetail({ params }: { params: Promise<{ id: 
               </div>
             ) : (
               <Image
-                src={project.image}
+                src={getImagePath(project.image)}
                 alt={project.title}
                 fill
                 className={styles.image}
