@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+const isProduction = process.env.NODE_ENV === 'production'
+const basePath = isProduction ? '/delaneym' : ''
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
@@ -11,8 +14,9 @@ const nextConfig = {
       },
     ],
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/delaneym' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/delaneym' : '',
+  basePath: basePath,
+  assetPrefix: basePath,
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
